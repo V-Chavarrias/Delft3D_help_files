@@ -1,0 +1,24 @@
+[forcing]
+Name                            = Upstream_01_0001
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2000-01-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m³/s
+0.0000000E+00 	2.0000000E+03 	
+6.0161132E+04 	2.0000000E+03 	
+6.6177245E+04 	2.0000000E+03 	
+
+[forcing]
+Name                            = Upstream_01_0002
+Function                        = timeseries
+Time-interpolation              = linear
+Quantity                        = time
+Unit                            = seconds since 2000-01-01 00:00:00
+Quantity                        = dischargebnd
+Unit                            = m³/s
+0.0000000E+00 	2.0000000E+03 	
+6.0161132E+04 	2.0000000E+03 	
+6.6177245E+04 	2.0000000E+03 	
+

@@ -1,0 +1,27 @@
+QUANTITY        =initialvelocityx
+FILENAME        =ini_vx.xyz      
+FILETYPE        =7               
+METHOD          =6               
+AVERAGINGTYPE   =2               
+OPERAND         =O               
+                          
+QUANTITY        =initialvelocityy
+FILENAME        =ini_vy.xyz      
+FILETYPE        =7               
+METHOD          =6               
+AVERAGINGTYPE   =2               
+OPERAND         =O               
+                          
+QUANTITY        =initialwaterlevel
+FILENAME        =etaw.xyz      
+FILETYPE        =7               
+METHOD          =6               
+AVERAGINGTYPE   =2               
+OPERAND         =O               
+                          
+QUANTITY        =bedlevel
+FILENAME        =dep.xyz      
+FILETYPE        =7               
+METHOD          =6               
+AVERAGINGTYPE   =2               
+OPERAND         =O               

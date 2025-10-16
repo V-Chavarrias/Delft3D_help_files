@@ -1,0 +1,65 @@
+[MorphologyFileInformation]
+   FileCreatedBy    = V
+   FileCreationDate = 18-Aug-2022 21:47:03
+   FileVersion      = 02.00
+
+[Morphology]
+   MorFac           =  1.0000000E+01               [-]      Morphological scale factor
+   MorStt           =  3.6011445E+04               [s]      Spin-up interval from TStart till start of morphological changes
+   Thresh           =  1.0000000e-003      [m]      Threshold sediment thickness for transport and erosion reduction
+   BedUpd           = 1                            Update bed levels during FLOW simulation
+   CmpUpd           = 0                            Update bed composition during flow run
+   NeuBcMud         = 0
+   NeuBcSand        = 0
+   DensIn           = 0    Include effect of sediment concentration on fluid density
+   ISlope = 3         [ - ] Flag for bed slope effect
+                            1          : None
+                            2 (default): Bagnold
+                            3          : Koch & Flokstra
+   AShld  = 1.000000       [ - ] Bed slope parameter Koch & Flokstra
+   BShld  = 0.000000       [ - ] Bed slope parameter Koch & Flokstra
+   CShld  = 0.000000       [ - ] Bed slope parameter Koch & Flokstra
+   DShld  = 0.000000       [ - ] Bed slope parameter Koch & Flokstra
+   AlfaBs           =  0.0000000e+000      [-]      Streamwise bed gradient factor for bed load transport
+   AlfaBn           =  0.0000000e+000      [-]      Transverse bed gradient factor for bed load transport
+   CoulFri          = 0
+   FlFdRat          = 0                      
+   ThetaCr          = 0                      
+   IHidExp= 1        [ - ] Flag for hiding & exposure
+                            1 (default): none
+                            2          : Egiazaroff
+                            3          : Ashida & Michiue, modified Egiazaroff
+                            4          : Soehngen, Kellermann, Loy
+                            5          : Wu, Wang, Jia
+   ASKLHE = 0.0000000E+00
+   MWWJHE                = 1                      
+   Espir  = 0.0       [ - ] Calibration factor spiral flow
+   Sus              =  1.0000000e+000      [-]      Multiplication factor for suspended sediment reference concentration
+   Bed              =  1.0000000e+000      [-]      Multiplication factor for bed-load transport vector magnitude
+   SusW             =  1.0000000e+000      [-]      Wave-related suspended sed. transport factor
+   BedW             =  1.0000000e+000      [-]      Wave-related bed-load sed. transport factor
+   SedThr           =  1.0000000e-003      [m]      Minimum water depth for sediment computations
+   ThetSD           =  0.0000000e+000      [-]      Factor for erosion of adjacent dry cells
+   HMaxTH           =  1.5000000e+000      [m]      Max depth for variable THETSD. Set < SEDTHR to use global value only
+   BcFil  =        
+
+[Boundary]
+  Name = Upstream_01
+  IBedCond = 1
+  ICmpCond = 0
+
+[Output]
+  Dm = 1
+  Dg = 1
+  HidExp = 1
+  Bedslope = 1
+  VelocMagAtZeta = 1
+  RawTransportAtZeta = 1
+
+[Numerics]
+  BedloadScheme = #central#
+
+[Underlayer]
+  IUnderLyr = 1       [ - ] Flag for underlayer concept
+                            1 (default): one fully mixed layer
+                            2          : graded sediment underlayers
