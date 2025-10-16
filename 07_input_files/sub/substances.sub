@@ -1,0 +1,39 @@
+substance 'cTR1' active
+   description        'conservative tracer from source 1'
+   concentration-unit '(g/m3/d)'
+   waste-load-unit    '-'
+end-substance
+substance 'dTR1' active
+   description        'decay tracer from source 1'
+   concentration-unit '(g/m3/d)'
+   waste-load-unit    '-'
+end-substance
+parameter 'VertDisper'
+   description   'vertical dispersion'
+   unit          '(m2/s)'
+   value         0.0
+end-parameter
+parameter 'Velocity'
+   description   'horizontal flow velocity'
+   unit          '(m/s)'
+   value          0.0000E+00
+end-parameter
+parameter 'VWind'
+   description   'wind speed'
+   unit          '(m/s)'
+   value          0.0000E+00
+end-parameter
+parameter 'RcDecTR1'
+   description   'decay rate tracer1 for AGE calculations'
+   unit          '(1/d)'
+   value          1E+01
+end-parameter
+output 'AgeTR1'
+   description   'calculated AGE for water from source 1 (d)'
+end-output
+active-processes
+   name  'TotDepth' 'depth water column'
+   name  'VertDisp' 'Vertical dispersion (segment -> exchange)'
+   name  'DynDepth' 'dynamic calculation of the depth'  
+   name  'Age1'     'Age of water from source 1'
+end-active-processes

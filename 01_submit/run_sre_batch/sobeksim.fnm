@@ -1,0 +1,102 @@
+[Sobeksim-River Task]
+Version=2.0
+
+[Simulation Input]
+NrOFiles=3
+mda=..\work\sobek.mda
+mdf=..\work\sobek.mdf
+rep=..\work\bekken.rep
+
+[Flow Module Output]
+NrOFiles=5
+map=..\work\flowmap.his
+his=..\work\flowhis.his
+str=..\work\struchis.his
+qlt=..\work\qlathis.his
+mix=..\work\minmax.his
+
+[Kalman Module Output]
+NrOFiles=10
+fhm=..\work\kafhmap.his
+fhh=..\work\kafhhis.his
+fpm=..\work\kafpmap.his
+fph=..\work\kafphis.his
+frm=..\work\kafrmap.his
+frh=..\work\kafrhis.his
+phm=..\work\kaphmap.his
+phh=..\work\kaphhis.his
+ppm=..\work\kappmap.his
+pph=..\work\kapphis.his
+
+[Salt Module Output]
+NrOFiles=2
+map=..\work\saltmap.his
+his=..\work\salthis.his
+
+[Sedimen Module Output]
+NrOFiles=2
+map=..\work\sedtmap.his
+his=..\work\sedthis.his
+
+[Morphology Module Output]
+NrOFiles=2
+map=..\work\morpmap.his
+his=..\work\morphis.his
+
+[Morphology Trajects]
+NrOFiles=3
+tra=..\work\trainp
+tro=..\work\traout
+gro=..\work\griout
+
+[Graded sediment Output] 
+NrOFiles=2
+map=..\work\gsedmap.his
+his=..\work\gsedhis.his
+
+[Graded sediment Auxilliary] 
+NrOFiles=2
+gut=..\work\graout.txt
+glg=..\work\gralog.txt
+
+[Water Quality Output]
+NrOFiles=10
+sgf=..\work\sobekwq.sgf
+exa=..\work\sobekwq.exa
+exf=..\work\sobekwq.exf
+len=..\work\sobekwq.len
+vol=..\work\sobekwq.vol
+poi=..\work\sobekwq.poi
+ino=..\work\sobekwq.ino
+inp=..\work\sobekwq.inp
+wda=..\work\sobekwq.wda
+wdf=..\work\sobekwq.wdf
+
+[Tidal Analyses]
+NrOFiles=5
+gap=..\work\tareport.txt
+gaw=..\work\tawatlev.fix
+gad=..\work\tadisch.fix 
+gav=..\work\tavelo.fix   
+gac=..\work\taconcen.fix     
+
+[Restart Files]
+NrOFiles=4
+rda=..\work\sobekrst.rda
+rdf=..\work\sobekrst.rdf
+nda=..\work\sobekrst.nda
+ndf=..\work\sobekrst.ndf
+
+[Log and status file]
+NrOFiles=3
+log=..\work\sobekls.log
+sta=..\work\sobekls.sta
+ReturncodeFile=sobekhd.rtn
+
+[Auxilliary files]
+NrOFiles=5
+res=..\work\residu
+fro=..\work\froude
+drs=..\work\dumpres
+dst=..\work\dumpstr
+dsl=..\work\dumpsol

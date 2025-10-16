@@ -1,0 +1,13 @@
+table-name          'Boundary Section : 1' 
+contents            'Uniform' 
+location            'Upstream_01' 
+time-function       'non-equidistant' 
+reference-time       20000101 
+time-unit           'seconds' 
+interpolation       'linear' 
+parameter           'time' unit '[sec]' 
+parameter           'depth change' unit '[m/s]'
+records-in-table     3 
+0.0000000E+00 	0.0   
+7200 	        3.0864e-06   
+36000        	3.0864e-06

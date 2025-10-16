@@ -1,0 +1,21 @@
+[DredgeFileInformation]
+    FileCreatedBy    = V
+    FileCreationDate = 10-Oct-2024
+    FileVersion      = 01.02
+[General]
+    PolygonFile      = poldad.pol
+[Sandmining]
+    Name            = p1
+    Clearance       =  1.00
+    MaxVolRate      = 999999999999999999
+    DredgeDepth     = 1.5
+    Dump            = WA_zw_s
+[Dump]
+    Name            = WA_zw_s
+    MinimumDumpDepth =  5.40
+[Sandmining]
+    Name            = p2
+    Clearance       = 2.00
+    MaxVolRate      = 999999999999999999
+    DredgeDepth     = 1.5
+    Dump            = WA_zw_s

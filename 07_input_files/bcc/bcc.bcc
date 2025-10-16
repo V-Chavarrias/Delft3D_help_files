@@ -1,0 +1,52 @@
+table-name          'Boundary Section : 1'
+contents            'Uniform'
+location            'Upstream_01'
+time-function       'non-equidistant'
+reference-time       20000101
+time-unit           'seconds'
+interpolation       'linear'
+parameter           'time' unit '[sec]'
+parameter           'Sediment1           end A uniform' unit '[kg/m3]'
+parameter           'Sediment1           end B uniform' unit '[kg/m3]'
+records-in-table     2
+  0.0000000e+00   0.0000000e+00   0.0000000e+00
+  3.6000000e+03   0.0000000e+00   0.0000000e+00
+table-name          'Boundary Section : 1'
+contents            'Uniform'
+location            'Upstream_01'
+time-function       'non-equidistant'
+reference-time       20000101
+time-unit           'seconds'
+interpolation       'linear'
+parameter           'time' unit '[sec]'
+parameter           'Sediment2           end A uniform' unit '[kg/m3]'
+parameter           'Sediment2           end B uniform' unit '[kg/m3]'
+records-in-table     2
+  0.0000000e+00   0.0000000e+00   0.0000000e+00
+  3.6000000e+03   0.0000000e+00   0.0000000e+00
+table-name          'Boundary Section : 2'
+contents            'Uniform'
+location            'Downstream'
+time-function       'non-equidistant'
+reference-time       20000101
+time-unit           'seconds'
+interpolation       'linear'
+parameter           'time' unit '[sec]'
+parameter           'Sediment1           end A uniform' unit '[kg/m3]'
+parameter           'Sediment1           end B uniform' unit '[kg/m3]'
+records-in-table     2
+  0.0000000e+00   0.0000000e+00   0.0000000e+00
+  3.6000000e+03   0.0000000e+00   0.0000000e+00
+table-name          'Boundary Section : 2'
+contents            'Uniform'
+location            'Downstream'
+time-function       'non-equidistant'
+reference-time       20000101
+time-unit           'seconds'
+interpolation       'linear'
+parameter           'time' unit '[sec]'
+parameter           'Sediment2           end A uniform' unit '[kg/m3]'
+parameter           'Sediment2           end B uniform' unit '[kg/m3]'
+records-in-table     2
+  0.0000000e+00   0.0000000e+00   0.0000000e+00
+  3.6000000e+03   0.0000000e+00   0.0000000e+00

@@ -1,0 +1,8 @@
+[TransportFormulaFileInformation]
+    FileCreationDate = April 2007
+    FileVersion = 01.00
+[TransportFormula]
+    Name = General Engelund-Hansen 1967 
+    DLL = plugin_delftflow_traform
+    Function = GEN_ENGHAN
+    InputFile = ../../01_input/sed/gen_enghan.tra 

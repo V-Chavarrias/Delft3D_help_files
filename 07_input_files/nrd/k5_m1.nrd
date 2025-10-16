@@ -1,0 +1,8 @@
+[General]
+
+ 
+[NodalPointRelation]
+Node       = #node2#
+Method     = #function#
+k          = 5
+m          = 1

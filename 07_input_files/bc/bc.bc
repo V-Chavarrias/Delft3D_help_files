@@ -1,0 +1,33 @@
+[forcing] 
+Name                            = upstream_0001 
+Function                        = timeseries 
+Time-interpolation              = linear 
+Quantity                        = time 
+Unit                            = seconds since 2000-01-01 00:00:00 +00:00 
+Quantity                        = dischargebnd 
+Unit                            = m3/s 
+0    	6509.367
+1000000000 	6509.367
+ 
+[forcing] 
+Name                            = downstream_0001 
+Function                        = timeseries 
+Time-interpolation              = linear 
+Quantity                        = time 
+Unit                            = seconds since 2000-01-01 00:00:00 +00:00 
+Quantity                        = waterlevelbnd 
+Unit                            = m 
+0    	0.7735
+1000000000 	0.7735
+
+[forcing]
+Name 			= Boundary02_0001
+Function		= harmonic
+Quantity		= harmonic component		
+Unit			= -
+Quantity		= waterlevelbnd amplitude		
+Unit			= m
+Quantity		= waterlevelbnd phase			
+Unit			= rad/deg/minutes
+0.0000000    0.0    0.0000000
+120    0.5    90.0000000

@@ -1,0 +1,126 @@
+[MorphologyFileInformation] 
+   FileCreatedBy    = V 
+   FileCreationDate = 210117
+   FileVersion      = 02.00 
+ 
+[Morphology] 
+   MorFac           =  1.0000000E+00               [-]      Morphological scale factor 
+   MorStt           =  300                         [s]      Spin-up interval from TStart till start of morphological changes 
+   Thresh           =  0.01                        [m]      Threshold sediment thickness for transport and erosion reduction 
+   BedUpd           = 1                            Update bed levels during FLOW simulation 
+   CmpUpd           = 1                            Update bed composition during flow run 
+   NeuBcMud         = 0 
+   NeuBcSand        = 0 
+   DensIn           = 0    Include effect of sediment concentration on fluid density 
+   ISlope = 3         [ - ] Flag for bed slope effect 
+                            1          : None 
+                            2 (default): Bagnold 
+                            3          : Koch & Flokstra 
+   AShld  = 0.850000       [ - ] Bed slope parameter Koch & Flokstra 
+   BShld  = 0.500000       [ - ] Bed slope parameter Koch & Flokstra 
+   CShld  = 0.000000       [ - ] Bed slope parameter Koch & Flokstra 
+   DShld  = 0.000000       [ - ] Bed slope parameter Koch & Flokstra 
+   AlfaBs           =  1.0000000e+000      [-]      Streamwise bed gradient factor for bed load transport 
+   AlfaBn           =  1.0000000e+000      [-]      Transverse bed gradient factor for bed load transport 
+ #  CoulFri          = 0 
+ #  FlFdRat          = 0                       
+ #  ThetaCr          = 0                       
+   IHidExp= 1        [ - ] Flag for hiding & exposure 
+                            1 (default): none 
+                            2          : Egiazaroff 
+                            3          : Ashida & Michiue, modified Egiazaroff 
+                            4          : Soehngen, Kellermann, Loy 
+                            5          : Wu, Wang, Jia 
+ #  ASKLHE = 0.0000000E+00 
+ #  MWWJHE = 1                       
+   Espir  = 1.0       [ - ] Calibration factor spiral flow 
+   Sus              =  1.0000000e+000      [-]      Multiplication factor for suspended sediment reference concentration 
+   Bed              =  1.0000000e+000      [-]      Multiplication factor for bed-load transport vector magnitude 
+   SusW             =  1.0000000e+000      [-]      Wave-related suspended sed. transport factor 
+   BedW             =  1.0000000e+000      [-]      Wave-related bed-load sed. transport factor 
+   SedThr           =  1.0000000e-002      [m]      Minimum water depth for sediment computations 
+   ThetSD           =  0.0000000e+000      [-]      Factor for erosion of adjacent dry cells 
+   HMaxTH           =  1.5000000e+000      [m]      Max depth for variable THETSD. Set < SEDTHR to use global value only 
+#   BcFil  = bcm.bcm 
+ 
+[Output]
+  Default                       = true
+  Percentiles                   = 10 50 90
+  HidExp                        = true
+  WithPores                     = true
+  VelocAtZeta                   = true
+  VelocMagAtZeta                = true
+  VelocZAtZeta                  = true
+  ShearVeloc                    = true
+  BedTranspAtFlux               = true
+  SuspTranspAtFlux              = true
+  BedTranspDueToCurrentsAtZeta  = true
+  BedTranspDueToCurrentsAtFlux  = true
+  BedTranspDueToWavesAtZeta     = true
+  BedTranspDueToWavesAtFlux     = true	
+  SuspTranspDueToWavesAtZeta    = true
+  SuspTranspDueToCurrentsAtZeta = true
+  SuspTranspDueToWavesAtFlux    = true
+  NearBedRefConcentration       = true
+  EquilibriumConcentration      = true
+  NearBedTranspCorrAtFlux       = true
+  SourceSinkTerms               = true
+  ReferenceHeight               = true
+  SettlingVelocity              = true
+  RawTransportsAtZeta           = true
+  Bedslope                      = true
+  Taurat                        = true
+  Dm                            = true
+  Dg                            = true
+  Dgsd                          = true
+  Frac                          = true
+  MudFrac                       = true
+  SandFrac                      = true
+  FixFac                        = true
+  CumNetSedimentationFlux       = true
+  BedLayerSedimentMass          = true
+  BedLayerVolumeFractions       = true
+  BedLayerDepth                 = true
+  BedLayerPorosity              = true
+  VelocMagAtZeta                = true
+  MainChannelAveragedBedLevel   = true
+  MainChannelCellArea           = true
+  MainChannelWidthAtFlux        = true
+
+[Boundary] 
+  Name = Upstream_01
+  IBedCond = 1 
+  ICmpCond = 1 
+
+[Boundary] 
+  Name = Downstream
+  IBedCond = 0 
+  ICmpCond = 0  
+  
+[Boundary]
+ Name             = #Hiraoka#         Name of boundary node
+ IBedCond         = 1                             0: bed level free
+                                                  1: bed level fixed
+                                                  2: time series depth m
+                                                  3: depth change prescribed m/s
+                                                  4: transport incl pores prescribed transport incl pores m3/s
+                                                  5: transport excl pores prescribed transport excl pores m3/s
+                                                  6: bed level prescribed m
+                                                  7: bed level change prescribed m/s
+												  
+[Numerics]
+MaximumWaterdepth           = 1
+
+[Underlayer]
+  IUnderLyr = 2       [ - ] Flag for underlayer concept
+                            1 (default): one fully mixed layer
+                            2          : graded sediment underlayers
+  ExchLyr = false     [T/F] Switch for exchange layer
+  IniComp = mor.ini
+  TTLForm = 1         [ - ] Transport layer thickness formulation
+                            1 (default): constant (user-specified) thickness
+                            2 proportional to water depth
+                            3 proportional to bedform height
+  ThTrLyr = 0.02       [ m ] Thickness of the transport layer
+  MxNULyr = 9         [ - ] Number of underlayers (excluding final well mixed layer)
+  ThUnLyr = 0.03       [ m ] Thickness of each underlayer

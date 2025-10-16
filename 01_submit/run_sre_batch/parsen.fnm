@@ -1,0 +1,134 @@
+[Sobek Ascii Layer definition]
+Version=2.01
+
+[Global model]
+NrOfFiles=1
+glb=..\WORK\DEFGLB.1
+
+[Topography layer]
+NrOfFiles=5
+net=..\WORK\DEFTOP.1
+cpt=..\WORK\DEFTOP.2
+nfl=..\WORK\DEFTOP.3
+nsa=..\WORK\DEFTOP.4
+nsm=..\WORK\DEFTOP.5
+
+[Cross Section layer]
+NrOfFiles=3
+net=..\WORK\DEFCRS.1
+def=..\WORK\DEFCRS.2
+dat=..\WORK\DEFCRS.3
+
+[Structure layer]
+NrOfFiles=9
+net=..\WORK\DEFSTR.1
+dat=..\WORK\DEFSTR.2
+def=..\WORK\DEFSTR.3
+con=..\WORK\DEFSTR.4
+trg=..\WORK\DEFSTR.5
+sal=..\WORK\DEFSTR.6
+cmp=..\WORK\DEFSTR.7
+cms=..\WORK\DEFSTR.8
+dbs=..\WORK\DEFSTR.9
+
+[Friction layer]
+NrOfFiles=4
+bed=..\WORK\DEFFRC.1
+wnd=..\WORK\DEFFRC.2
+exr=..\WORK\DEFFRC.3
+glf=..\WORK\DEFFRC.4
+
+[Grid layer]
+NrOfFiles=3
+net=..\WORK\DEFGRD.1
+seg=..\WORK\DEFGRD.2
+lim=..\WORK\DEFGRD.3
+
+[Condition layer]
+NrOfFiles=10
+net=..\WORK\DEFCND.1
+flb=..\WORK\DEFCND.2
+fll=..\WORK\DEFCND.3
+wqb=..\WORK\DEFCND.4
+wql=..\WORK\DEFCND.5
+sab=..\WORK\DEFCND.6
+sal=..\WORK\DEFCND.7
+mob=..\WORK\DEFCND.8
+mon=..\WORK\DEFCND.9
+mol=..\WORK\DEFCND.A
+
+[Initial Conditions layer]
+NrOfFiles=5
+igl=..\WORK\DEFICN.1
+ifl=..\WORK\DEFICN.2
+iwq=..\WORK\DEFICN.3
+isa=..\WORK\DEFICN.4
+imo=..\WORK\DEFICN.5
+
+[Runtime Data layer]
+NrOfFiles=19
+flt=..\WORK\DEFRUN.1
+fln=..\WORK\DEFRUN.2
+flm=..\WORK\DEFRUN.3
+flh=..\WORK\DEFRUN.4
+san=..\WORK\DEFRUN.5
+sam=..\WORK\DEFRUN.6
+sah=..\WORK\DEFRUN.7
+sen=..\WORK\DEFRUN.8
+sem=..\WORK\DEFRUN.9
+seh=..\WORK\DEFRUN.A
+mon=..\WORK\DEFRUN.B
+mom=..\WORK\DEFRUN.C
+moh=..\WORK\DEFRUN.D
+wqt=..\WORK\DEFRUN.E
+wqm=..\WORK\DEFRUN.F
+wqn=..\WORK\DEFRUN.G
+wqh=..\WORK\DEFRUN.H
+pwq=..\WORK\DEFRUN.I
+gwn=..\WORK\DEFRUN.J
+
+
+[Meteo layer]
+NrOfFiles=4
+wnd=..\WORK\DEFMET.1
+sun=..\WORK\DEFMET.2
+wat=..\WORK\DEFMET.3
+air=..\WORK\DEFMET.4
+
+[Dispersion layer]
+NrOfFiles=5
+gld=..\WORK\DEFDIS.1
+lod=..\WORK\DEFDIS.2
+fwt=..\WORK\DEFDIS.3
+mou=..\WORK\DEFDIS.4
+brm=..\WORK\DEFDIS.5
+
+[Transport layer]
+NrOfFiles=1
+dat=..\WORK\DEFTRN.1
+
+[Groundwater layer]
+NrOfFiles=1
+gwm=..\WORK\DEFGWM.1
+
+[Substance layer]
+NrOfFiles=1
+sub=..\WORK\DEFSUB.1
+
+[Parser Files]
+NrOfFiles=5
+ini=..\WORK\PARSEN.INI
+dmp=..\WORK\PARSEN.DMP
+msg=..\work\parsen.msg
+seq=..\WORK\PARSEN.SEQ
+rtn=parsen.rtn
+
+[Simulation Input]
+NrOfFiles=2
+mda=..\work\sobek.mda
+mdf=..\work\sobek.mdf
+
+[Water Quality Output]
+NrOfFiles=2
+nam=C:\SobekRE\Programs\convert\parsen\parsen.nam
+ino=..\work\sobekwq.inp

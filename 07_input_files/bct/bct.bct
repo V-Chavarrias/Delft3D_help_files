@@ -1,0 +1,154 @@
+table-name           'Boundary Section : 1' 
+contents             'Uniform             ' 
+location             'Upstream_01       ' 
+time-function        'non-equidistant' 
+reference-time       20000101 
+time-unit            'seconds' 
+interpolation        'linear' 
+parameter            'time'                                     unit '[sec]' 
+parameter            'flux/discharge  (q)  end A'               unit '[m3/s]' 
+parameter            'flux/discharge  (q)  end B'               unit '[m3/s]' 
+records-in-table     3 
+0.0000000E+00 	6.1000000E-03 	6.1000000E-03 	 
+7.2000000E+03 	6.1000000E-03 	6.1000000E-03 	 
+1.8216000E+06 	6.1000000E-03 	6.1000000E-03 	 
+table-name           'Boundary Section : 2' 
+contents             'Uniform             ' 
+location             'Upstream_02       ' 
+time-function        'non-equidistant' 
+reference-time       20000101 
+time-unit            'seconds' 
+interpolation        'linear' 
+parameter            'time'                                     unit '[sec]' 
+parameter            'flux/discharge  (q)  end A'               unit '[m3/s]' 
+parameter            'flux/discharge  (q)  end B'               unit '[m3/s]' 
+records-in-table     3 
+0.0000000E+00 	6.1000000E-03 	6.1000000E-03 	 
+7.2000000E+03 	6.1000000E-03 	6.1000000E-03 	 
+1.8216000E+06 	6.1000000E-03 	6.1000000E-03 	 
+table-name           'Boundary Section : 3' 
+contents             'Uniform             ' 
+location             'Upstream_03       ' 
+time-function        'non-equidistant' 
+reference-time       20000101 
+time-unit            'seconds' 
+interpolation        'linear' 
+parameter            'time'                                     unit '[sec]' 
+parameter            'flux/discharge  (q)  end A'               unit '[m3/s]' 
+parameter            'flux/discharge  (q)  end B'               unit '[m3/s]' 
+records-in-table     3 
+0.0000000E+00 	6.1000000E-03 	6.1000000E-03 	 
+7.2000000E+03 	6.1000000E-03 	6.1000000E-03 	 
+1.8216000E+06 	6.1000000E-03 	6.1000000E-03 	 
+table-name           'Boundary Section : 4' 
+contents             'Uniform             ' 
+location             'Upstream_04       ' 
+time-function        'non-equidistant' 
+reference-time       20000101 
+time-unit            'seconds' 
+interpolation        'linear' 
+parameter            'time'                                     unit '[sec]' 
+parameter            'flux/discharge  (q)  end A'               unit '[m3/s]' 
+parameter            'flux/discharge  (q)  end B'               unit '[m3/s]' 
+records-in-table     3 
+0.0000000E+00 	6.1000000E-03 	6.1000000E-03 	 
+7.2000000E+03 	6.1000000E-03 	6.1000000E-03 	 
+1.8216000E+06 	6.1000000E-03 	6.1000000E-03 	 
+table-name           'Boundary Section : 5' 
+contents             'Uniform             ' 
+location             'Upstream_05       ' 
+time-function        'non-equidistant' 
+reference-time       20000101 
+time-unit            'seconds' 
+interpolation        'linear' 
+parameter            'time'                                     unit '[sec]' 
+parameter            'flux/discharge  (q)  end A'               unit '[m3/s]' 
+parameter            'flux/discharge  (q)  end B'               unit '[m3/s]' 
+records-in-table     3 
+0.0000000E+00 	6.1000000E-03 	6.1000000E-03 	 
+7.2000000E+03 	6.1000000E-03 	6.1000000E-03 	 
+1.8216000E+06 	6.1000000E-03 	6.1000000E-03 	 
+table-name           'Boundary Section : 6' 
+contents             'Uniform             ' 
+location             'Upstream_06       ' 
+time-function        'non-equidistant' 
+reference-time       20000101 
+time-unit            'seconds' 
+interpolation        'linear' 
+parameter            'time'                                     unit '[sec]' 
+parameter            'flux/discharge  (q)  end A'               unit '[m3/s]' 
+parameter            'flux/discharge  (q)  end B'               unit '[m3/s]' 
+records-in-table     3 
+0.0000000E+00 	6.1000000E-03 	6.1000000E-03 	 
+7.2000000E+03 	6.1000000E-03 	6.1000000E-03 	 
+1.8216000E+06 	6.1000000E-03 	6.1000000E-03 	 
+table-name           'Boundary Section : 7' 
+contents             'Uniform             ' 
+location             'Upstream_07       ' 
+time-function        'non-equidistant' 
+reference-time       20000101 
+time-unit            'seconds' 
+interpolation        'linear' 
+parameter            'time'                                     unit '[sec]' 
+parameter            'flux/discharge  (q)  end A'               unit '[m3/s]' 
+parameter            'flux/discharge  (q)  end B'               unit '[m3/s]' 
+records-in-table     3 
+0.0000000E+00 	6.1000000E-03 	6.1000000E-03 	 
+7.2000000E+03 	6.1000000E-03 	6.1000000E-03 	 
+1.8216000E+06 	6.1000000E-03 	6.1000000E-03 	 
+table-name           'Boundary Section : 8' 
+contents             'Uniform             ' 
+location             'Upstream_08       ' 
+time-function        'non-equidistant' 
+reference-time       20000101 
+time-unit            'seconds' 
+interpolation        'linear' 
+parameter            'time'                                     unit '[sec]' 
+parameter            'flux/discharge  (q)  end A'               unit '[m3/s]' 
+parameter            'flux/discharge  (q)  end B'               unit '[m3/s]' 
+records-in-table     3 
+0.0000000E+00 	6.1000000E-03 	6.1000000E-03 	 
+7.2000000E+03 	6.1000000E-03 	6.1000000E-03 	 
+1.8216000E+06 	6.1000000E-03 	6.1000000E-03 	 
+table-name           'Boundary Section : 9' 
+contents             'Uniform             ' 
+location             'Upstream_09       ' 
+time-function        'non-equidistant' 
+reference-time       20000101 
+time-unit            'seconds' 
+interpolation        'linear' 
+parameter            'time'                                     unit '[sec]' 
+parameter            'flux/discharge  (q)  end A'               unit '[m3/s]' 
+parameter            'flux/discharge  (q)  end B'               unit '[m3/s]' 
+records-in-table     3 
+0.0000000E+00 	6.1000000E-03 	6.1000000E-03 	 
+7.2000000E+03 	6.1000000E-03 	6.1000000E-03 	 
+1.8216000E+06 	6.1000000E-03 	6.1000000E-03 	 
+table-name           'Boundary Section : 10' 
+contents             'Uniform             ' 
+location             'Upstream_10       ' 
+time-function        'non-equidistant' 
+reference-time       20000101 
+time-unit            'seconds' 
+interpolation        'linear' 
+parameter            'time'                                     unit '[sec]' 
+parameter            'flux/discharge  (q)  end A'               unit '[m3/s]' 
+parameter            'flux/discharge  (q)  end B'               unit '[m3/s]' 
+records-in-table     3 
+0.0000000E+00 	6.1000000E-03 	6.1000000E-03 	 
+7.2000000E+03 	6.1000000E-03 	6.1000000E-03 	 
+1.8216000E+06 	6.1000000E-03 	6.1000000E-03 	 
+table-name           'Boundary Section : 11' 
+contents             'Uniform             ' 
+location             'Downstream          ' 
+time-function        'non-equidistant' 
+reference-time       20000101 
+time-unit            'seconds' 
+interpolation        'linear' 
+parameter            'time'                                    unit '[sec]' 
+parameter            'water elevation (z)  end A'              unit '[m]' 
+parameter            'water elevation (z)  end B'              unit '[m]' 
+records-in-table     3 
+0.0000000E+00 	0.0000000E+00 	0.0000000E+00 	 
+7.2000000E+03 	0.0000000E+00 	0.0000000E+00 	 
+1.8216000E+06 	0.0000000E+00 	0.0000000E+00 	 

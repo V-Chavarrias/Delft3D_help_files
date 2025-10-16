@@ -1,0 +1,2 @@
+p:\d-hydro\dimrset\latest\x64\bin\run_dfmoutput.bat -- mapmerge --infile RIJN_0000_20000102_041733_rst.nc RIJN_0001_20000102_041733_rst.nc RIJN_0002_20000102_041733_rst.nc RIJN_0003_20000102_041733_rst.nc  
+pause

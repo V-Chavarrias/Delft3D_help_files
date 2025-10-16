@@ -1,0 +1,18 @@
+[General]
+TableFile  = #NodeTables.tbl#
+ 
+[NodalPointRelation]
+Node       = #Pannerdenschekop#
+Method     = #table#
+Table      = #TABL_P_G#
+BranchIn   = #Bovenrijn#
+BranchOut1 = #Waal1#
+BranchOut2 = #PanKan1#
+
+[NodalPointRelation]
+Node       = #IJsselkop#
+Method     = #table#
+Table      = #TABL_I_G#
+BranchIn   = #PanKan2#
+BranchOut1 = #Nederrijn1#
+BranchOut2 = #IJssel01#

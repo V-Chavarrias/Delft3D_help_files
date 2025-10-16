@@ -1,0 +1,1 @@
+C:\Windows\System32\cmd.exe /E:ON /K ""C:\Program Files (x86)\Intel\oneAPI\setvars.bat" intel64 vs2022 & set IFORT_COMPILER24=C:\Program Files (x86)\Intel\oneAPI\compiler\2024.2\ & SET PATH=c:\Users\ottevan\AppData\Local\miniforge3\;c:\Program Files (x86)\Intel\oneAPI\compiler\2024.2\bin\;%PATH% & "c:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\devenv.exe""
