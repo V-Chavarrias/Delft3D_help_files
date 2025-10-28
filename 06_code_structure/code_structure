@@ -143,6 +143,8 @@ unstruct
 										setship
 										setNFEntrainmentMomentum
 										advecdriver
+											advec
+											setucxucyucxuucyunew
 											setextforcechkadvec
 												addbaroclinicpressure
 													addbarocn

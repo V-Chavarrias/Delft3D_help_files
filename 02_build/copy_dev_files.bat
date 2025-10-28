@@ -1,7 +1,8 @@
 @echo off
-set "source_folder=c:\checkouts\d3d_input_files"
+set "source_folder=c:\checkouts\Delft3D_help_files\"
 set "destination_folder=%CD%"
 
+copy "%source_folder%\02_build\.gitignore" "%destination_folder%" /Y
 copy "%source_folder%\02_build\build_d3d4.bat" "%destination_folder%" /Y
 copy "%source_folder%\02_build\build_fm.bat" "%destination_folder%" /Y
 copy "%source_folder%\02_build\open_solution_fm.bat" "%destination_folder%" /Y
