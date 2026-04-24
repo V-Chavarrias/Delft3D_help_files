@@ -4,7 +4,7 @@ rem
 rem SEQUENTIAL
 rem 
 
-rem call "c:\Program Files\Deltares\Delft3D FM Suite 2024.03 HM\plugins\DeltaShell.Dimr\kernels\x64\bin\run_dimr.bat" dimr_config.xml 
+rem call "c:\Program Files\Deltares\Delft3D FM Suite 2025.02 HMWQ\plugins\DeltaShell.Dimr\kernels\x64\bin\run_dimr.bat" dimr_config.xml 
 rem call p:\d-hydro\dimrset\weekly\latest\x64\bin\run_dimr.bat dimr_config.xml 
 rem call c:\checkouts\delft3d_branch\install_all\bin\run_dimr.bat  dimr_config.xml 
 rem call c:\checkouts\delft3d_fm_trunk\install_all\dflowfm-cli.exe da3.mdu --autostartstop

@@ -14,6 +14,14 @@ unstruct
 				loadnetwork
 				read_1d_attributes
 				readstructures
+					readWeirAsGenstru
+					readUniversalWeir
+					readCulvert
+					readBridge
+					readPump
+					readGateAsGenstru
+					readGeneralStructure
+					readDambreak
 				loadobservations
 				pol_to_thindams
 				pol_to_flowlinks
@@ -157,6 +165,9 @@ unstruct
 								flow_run_single_timestep
 									step_reduce_hydro
 										furu
+											furu_structures
+												computeGeneralStructure
+													flqhgs
 										u1q1
 										compute_q_total_1d2d
 										update_s_explicit
@@ -225,3 +236,12 @@ unstruct
 		enddo
 		writesomefinaloutput
 		flowfinalize
+		
+unstruc_bmi
+	update
+		flow_run_sometimesteps
+			reset_outgoing_lat_concentration
+			distribute_lateral_discharge
+			flow_init_usertimestep
+			flow_single_timestep
+			flow_finalize_usertimestep

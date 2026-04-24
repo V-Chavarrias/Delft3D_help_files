@@ -1,0 +1,16 @@
+Commands run during merge main into current branch using KDiff3
+Date: 2026-03-13
+
+1) git status --short --branch
+2) git status
+3) if (Test-Path .git\MERGE_HEAD) { Write-Output "MERGE_IN_PROGRESS" } else { Write-Output "NO_MERGE_IN_PROGRESS" }
+4) git remote -v
+5) git fetch --all --prune
+6) git branch -r
+7) git config --local merge.tool kdiff3; git config --local mergetool.kdiff3.path "C:\Program Files\KDiff3\kdiff3.exe"; git config --local mergetool.keepBackup false; git config --local mergetool.prompt false
+8) git config --local --get merge.tool; git config --local --get mergetool.kdiff3.path; git config --local --get mergetool.keepBackup; git config --local --get mergetool.prompt
+9) git merge origin/main
+10) git status --short
+11) git diff --name-only --diff-filter=U
+12) git mergetool --tool=kdiff3
+13) git diff --name-only --diff-filter=U

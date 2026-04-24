@@ -1,1 +1,0 @@
-xcopy ..\..\install_fm-suite data\engines\teamcity_artifacts\x64\ /E /Y /I

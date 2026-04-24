@@ -1,33 +1,21 @@
 @echo off
-REM %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-REM %%%                 VTOOLS                 %%%
-REM %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-REM % 
-REM %Victor Chavarrias (victor.chavarrias@deltares.nl)
-REM %
-REM %$Revision: 2689 $
-REM %$Date: 2024-09-16 06:31:46 +0200 (Mon, 16 Sep 2024) $
-REM %$Author: chavarri $
-REM %$Id: test.bat 2689 2024-09-16 04:31:46Z chavarri $
-REM %$HeadURL: https://svn.oss.deltares.nl/repos/openearthmodels/trunk/riverlab/input_files/04_testbench/test.bat $
-REM %
-REM %Script to run testbench in MinIO.
-REM %
-REM %Run in Anaconda prompt at the level of <test/deltares_testbench>.
-REM %
-REM %The <x64> folder of the executables should be at <test/deltares_testbench/data/engines/teamcity_artifacts/x64>.
-REM %E.G. D3D4:
-REM %c:\checkouts\delft3d_branch\test\deltares_testbench\data\engines\teamcity_artifacts\bin\d_hydro.exe 
-REM %
-REM %Needs credentials from MinIO.
-REM %`username` is `accessKey` in credentials.
-REM %`password` is `secretKey` in credentials.
-REM %`--config` can only refer to xml-files in:
-REM %    * <test/deltares_testbench/configs>
-REM %    * <test/deltares_testbench/configs/dimr>
-REM %    * <test/deltares_testbench/configs/delft3d4>
-REM %
-REM %Here, the credentials from MinIO are stored in a local file. First line has the `accessKey` and second line the `secretKey`.
+REM Script to run testbench in MinIO.
+REM 
+REM Run in Anaconda prompt at the level of <test/deltares_testbench>.
+REM 
+REM The <x64> folder of the executables should be at <test/deltares_testbench/data/engines/teamcity_artifacts/x64>.
+REM E.G. D3D4:
+REM c:\checkouts\delft3d_branch\test\deltares_testbench\data\engines\teamcity_artifacts\bin\d_hydro.exe 
+REM 
+REM Needs credentials from MinIO.
+REM `username` is `accessKey` in credentials.
+REM `password` is `secretKey` in credentials.
+REM `--config` can only refer to xml-files in:
+REM     * <test/deltares_testbench/configs>
+REM     * <test/deltares_testbench/configs/dimr>
+REM     * <test/deltares_testbench/configs/delft3d4>
+REM 
+REM Here, the credentials from MinIO are stored in a local file. First line has the `accessKey` and second line the `secretKey`.
 
 setlocal enabledelayedexpansion
 

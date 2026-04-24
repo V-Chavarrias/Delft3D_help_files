@@ -60,4 +60,13 @@
         <inputFile>r001.mdw</inputFile>
     </component>
    -->
+  <!--
+  <component name="Waal">
+    <library>dflowfm</library>
+    <workingDir>dflowfm</workingDir>
+        <setting key="processlibrary" value="${PROC_DEF_DIR}/proc_def.dat"/>
+        <setting key="bloomspecies" value="${PROC_DEF_DIR}/bloom.spe"/>
+    <inputFile>Waal.mdu</inputFile>
+  </component>
+   -->
 </dimrConfig>

@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Fortran-Debug",
+            "type": "cppvsdbg", // Visual Studio Debugger for C++ (works for Fortran as well)
+            "request": "launch",
+            // "program": "c:\\checkouts\\sc_branch_2\\install_all\\bin\\dflowfm-cli.exe",
+            "program": "${workspaceFolder}\\install_all\\bin\\dflowfm-cli.exe",
+            "args": ["r001.mdu", "--autostartstop"],
+            "stopAtEntry": false,
+            "logging": { "engineLogging": false },
+            // "console": "integratedTerminal",
+            "env": {
+                "PATH": "${workspaceFolder}\\install_all\\bin;${workspaceFolder}\\install_all\\lib;${env:PATH}"
+            },
+            "cwd": "${workspaceFolder}\\test\\deltares_testbench\\data\\cases\\e02_f022_c99_duneheight_work\\"
+        }
+
+    ]
+}

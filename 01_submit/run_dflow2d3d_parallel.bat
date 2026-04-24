@@ -23,7 +23,7 @@
 
 set NPROC=2
 call p:\d-hydro\delft3d4\Delft3D-FLOW_WAVE\6.04.00.69179\x64\dflow2d3d\scripts\run_dflow2d3d_parallel.bat  %NPROC% config_flow2d3d.xml
-rem call c:\checkouts\sc_d3d4_trunk\install_delft3d4\bin\run_dflow2d3d_parallel.bat %NPROC% config_d_hydro_w.xml 
+rem call c:\checkouts\sc_d3d4_trunk\install_d3d4-suite\bin\run_dflow2d3d_parallel.bat %NPROC% config_d_hydro_w.xml 
 
 REM To run in debug mode, use this script to start the run and call a config-file that waits for file. Attach to process and proceed.
 rem call c:\checkouts\sc_branch\install_delft3d4\bin\run_dflow2d3d_parallel.bat %NPROC% config_d_hydro_wait.xml 

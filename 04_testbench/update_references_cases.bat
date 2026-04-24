@@ -1,28 +1,16 @@
 @echo off
-REM %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-REM %%%                 VTOOLS                 %%%
-REM %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-REM % 
-REM %Victor Chavarrias (victor.chavarrias@deltares.nl)
-REM %
-REM %$Revision: 2689 $
-REM %$Date: 2024-09-16 06:31:46 +0200 (Mon, 16 Sep 2024) $
-REM %$Author: chavarri $
-REM %$Id: test.bat 2689 2024-09-16 04:31:46Z chavarri $
-REM %$HeadURL: https://svn.oss.deltares.nl/repos/openearthmodels/trunk/riverlab/input_files/04_testbench/test.bat $
-REM %
-REM %Script to update the references of the testbench cases.
-REM %
-REM %You have 'push' and 'pull', but you also have 'update-references'. The 
-REM %'update-references' is the only command that will look in the local 
-REM %'cases' directory, and compare them to the 'references' in minio. But 
-REM %the catch is: It does updates only. So only local output files in the
-REM %case directory that already exist in the minio references will be 
-REM %updated. 'update-references' is only convenient for updating existing 
-REM %references in MinIO. It does not create or delete files, because 
-REM %usually there's a lot of extra stuff in the 'cases' directory that you
-REM %do not need in the references. And the tool can't differentiate between
-REM %input files and output files.
+REM Script to update the references of the testbench cases.
+REM 
+REM You have 'push' and 'pull', but you also have 'update-references'. The 
+REM 'update-references' is the only command that will look in the local 
+REM 'cases' directory, and compare them to the 'references' in minio. But 
+REM the catch is: It does updates only. So only local output files in the
+REM case directory that already exist in the minio references will be 
+REM updated. 'update-references' is only convenient for updating existing 
+REM references in MinIO. It does not create or delete files, because 
+REM usually there's a lot of extra stuff in the 'cases' directory that you
+REM do not need in the references. And the tool can't differentiate between
+REM input files and output files.
 
 set HOME=C:\Users\chavarri
 
